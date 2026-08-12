@@ -82,12 +82,11 @@ The project includes an interactive interface that allows users to experiment wi
 - `presentation/` — Project presentation and results analysis
 
 ## Main Results
-- Qwen embeddings with SVM achieved 78.4% classification accuracy.
+- Qwen embeddings with SVM achieved the best classification accuracy.
 - Contextual embeddings generally outperformed static word representations.
 - TF-IDF with stemming achieved the best result among traditional representations.
 - FastText with GRU achieved the highest Seq2Seq validation accuracy.
 - mT5 achieved the highest BLEU score among the transformer-based QA models.
-- Lower validation loss did not always correspond to better generated-answer quality.
 
 ## Dataset
 The project uses an Arabic question-and-answer dataset containing approximately 5,000 samples. The dataset and generated embedding files are not included in this repository.
